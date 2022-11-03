@@ -1,0 +1,18 @@
+[
+    {
+        "deviceModelId": "3578b3dc-f3ed-4e18-becc-51f1117d9a5b-0004da89",
+        "deviceModelName": "Niveau 1",
+        "deviceModelDesc": "Monitors indoor temperture",
+        "deviceProperties": [
+            {
+                "propertyId": "DeviceMeasure",
+                "propertyName": "Temperature",
+                "propertyDesc": "Internal temperature in Celsius",
+                "propertyType": "float",
+                "propertyUnit": "Celsius",
+                "rangeMin": "0.00",
+                "rangeMax": "40.00"
+            }
+        ]
+    }
+]
