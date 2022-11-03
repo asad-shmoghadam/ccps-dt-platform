@@ -1,0 +1,25 @@
+[
+    {
+        "deviceModelId": "ef394bef-fe4d-48f9-99ee-94170c56ecdf",
+        "deviceModelName": "Human Comfort Sensor",
+        "deviceModelDesc": "Monitors indoor air quality by measuring levels of Carbon Dioxide (CO2), temperature, and humidity.",
+        "deviceProperties": [
+            {
+                "propertyId": "Temperature",
+                "propertyName": "Temperature",
+                "propertyDesc": "External temperature in Fahrenheit",
+                "propertyType": "double",
+                "propertyUnit": "Celsius",
+                "rangeMin": "1.00",
+                "rangeMax": "48.00"
+            }
+        ]
+    }
+]
+
+d370a293-4bd5-4bdb-a3df-376dc131d44c
+
+
+Sensor RC21 = "84a97ecc-e088-4087-a4db-b1cb60062415-00409821"
+
+RC21 = "86326ee6-ee64-4881-b0e4-7627d61c6379-0005771a"

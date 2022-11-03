@@ -1,0 +1,40 @@
+"tags": {
+    "modelId": "84a97ecc-e088-4087-a4db-b1cb60062415-00409821",
+    "name": "CORRIDOR 100-COR-01-2",
+    "position": {
+        "x": "8.997822999954224",
+        "y": "101.37",
+        "z": "-39.285688400268555"
+    },
+    "sensorTypes": [
+        "temperature"
+    ]
+},
+
+"tags": {
+    "modelId": "84a97ecc-e088-4087-a4db-b1cb60062415-00409821",
+    "name": "BUREAU RC04",
+    "position": {
+        "x": "-32.29154682159424",
+        "y": "-38.408884048461914",
+        "z": "-53.46949005126953"
+    },
+    "sensorTypes": [
+        "temperature"
+    ]
+},
+
+let roomList = await structureInfo.getRoomList();
+console.log(roomList);
+let room = roomList[2]; //Get correct room from the roomList
+ let sensor = {
+    "tags": {
+        "position": {
+            "x": "46.16809844970703",
+            "y": "16.01860761642456",
+            "z": "-51.0662727355957"
+        }
+    }
+ }
+console.log(sensor.tags.position);
+console.log("CUISINE RC21 Contain Sensor: ", room.bounds.containsPoint(sensor.tags.position));

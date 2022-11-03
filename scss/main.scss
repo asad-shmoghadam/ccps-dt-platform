@@ -1,0 +1,26 @@
+
+
+.textured-heatmap-playbutton {
+    background-image: url($assetUrlPrefix + "/images/play_button.svg");
+    background-size: contain;
+}
+
+.textured-heatmap-showhide-button {
+    background-image: url($assetUrlPrefix + "/images/visibility.svg");
+    background-size: contain;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mesh-hm-controls {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+    width: 4000px;
+    color: black;
+}
+
+// Import any custom application styling
+@import "./custom.scss";
